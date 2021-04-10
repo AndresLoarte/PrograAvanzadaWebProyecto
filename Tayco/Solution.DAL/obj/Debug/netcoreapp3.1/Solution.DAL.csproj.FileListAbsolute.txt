@@ -10,3 +10,22 @@ C:\Users\pc\source\repos\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL
 C:\Users\pc\source\repos\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.dll
 C:\Users\pc\source\repos\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.deps.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.runtimeconfig.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.runtimeconfig.dev.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.csprojAssemblyReference.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.AssemblyInfoInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.AssemblyInfo.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.csproj.CoreCompileInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.csproj.CopyComplete
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL\obj\Debug\netcoreapp3.1\Solution.DAL.genruntimeconfig.cache

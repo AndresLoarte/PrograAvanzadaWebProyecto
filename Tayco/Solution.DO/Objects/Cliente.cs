@@ -24,4 +24,4 @@ namespace Solution.DO.Objects
         public virtual ICollection<Reserva> Reserva { get; set; }
     }
 }
-}
+

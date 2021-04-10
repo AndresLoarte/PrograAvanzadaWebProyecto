@@ -10,3 +10,24 @@ C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.p
 C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.dll
 C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.deps.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.runtimeconfig.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.runtimeconfig.dev.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csprojAssemblyReference.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.AssemblyInfoInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.AssemblyInfo.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csproj.CoreCompileInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csproj.CopyComplete
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.genruntimeconfig.cache

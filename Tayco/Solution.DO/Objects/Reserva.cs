@@ -23,4 +23,4 @@ namespace Solution.DO.Objects
         public virtual ICollection<Auditoria> Auditoria { get; set; }
     }
 }
-}
+
