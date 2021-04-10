@@ -1,0 +1,12 @@
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\pc\source\repos\Tayco\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb

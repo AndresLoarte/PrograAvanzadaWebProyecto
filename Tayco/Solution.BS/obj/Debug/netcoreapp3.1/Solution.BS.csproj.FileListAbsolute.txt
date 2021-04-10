@@ -1,0 +1,12 @@
+C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.deps.json
+C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.dll
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.AssemblyInfo.cs
+C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.runtimeconfig.json
+C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.runtimeconfig.dev.json
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.genruntimeconfig.cache
+C:\Users\pc\source\repos\Tayco\Solution.BS\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.dll
+C:\Users\pc\source\repos\Tayco\Solution.BS\obj\Debug\netcoreapp3.1\Solution.BS.pdb
