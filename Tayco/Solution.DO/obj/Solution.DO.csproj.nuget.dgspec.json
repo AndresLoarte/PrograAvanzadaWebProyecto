@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj": {}
+    "C:\\Users\\pc\\Documents\\GitHub\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj": {}
   },
   "projects": {
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj": {
+    "C:\\Users\\pc\\Documents\\GitHub\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj",
         "projectName": "Solution.DO",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\Solution.DO.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\GitHub\\PrograAvanzadaWebProyecto\\Tayco\\Solution.DO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
