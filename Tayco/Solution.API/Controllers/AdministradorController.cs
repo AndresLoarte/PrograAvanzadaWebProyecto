@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Solution.DAL.EF;
-using data = Solution.DO.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using data = Solution.DO.Objects;
 
 namespace Solution.API.Controllers
 {
@@ -27,7 +27,10 @@ namespace Solution.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DataModels.Administrador>>> GetAdministrador()
         {
-            var aux = new BS.Admin(_context).GetAll().ToList();
+            // carga de datos
+            var aux = await new BS.Administrador(_context).GetAllInclude();
+
+            //implementacion del automapper
             var mappaux = _mapper.Map<IEnumerable<data.Administrador>, IEnumerable<DataModels.Administrador>>(aux).ToList();
             return mappaux;
         }
@@ -36,17 +39,17 @@ namespace Solution.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<DataModels.Administrador>> GetAdministrador(int id)
         {
-            var admin = new BS.Admin(_context).GetOneById(id);
+            // carga de datos
+            var aux = await new BS.Administrador(_context).GetOneByIdInclude(id);
 
-            var mappaux = _mapper.Map<data.Administrador, DataModels.Administrador>(admin);
-
+            //implementacion del automapper
+            var mappaux = _mapper.Map<data.Administrador, DataModels.Administrador>(aux);
             if (mappaux == null)
             {
                 return NotFound();
             }
 
             return mappaux;
-
         }
 
         // PUT: api/Administradors/5
@@ -63,7 +66,7 @@ namespace Solution.API.Controllers
             try
             {
                 var mappaux = _mapper.Map<DataModels.Administrador, data.Administrador>(administrador);
-                new BS.Admin(_context).Update(mappaux);
+                new BS.Administrador(_context).Update(mappaux);
             }
             catch (Exception ee)
             {
@@ -79,7 +82,6 @@ namespace Solution.API.Controllers
 
             return NoContent();
         }
-        
 
         // POST: api/Administradors
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
@@ -88,30 +90,31 @@ namespace Solution.API.Controllers
         public async Task<ActionResult<DataModels.Administrador>> PostAdministrador(DataModels.Administrador administrador)
         {
             var mappaux = _mapper.Map<DataModels.Administrador, data.Administrador>(administrador);
-            new BS.Admin(_context).Insert(mappaux);
+            new BS.Administrador(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetFoci", new { id = administrador.AdministradorId }, administrador);
+            return CreatedAtAction("GetCliente", new { id = administrador.AdministradorId }, administrador);
         }
 
         // DELETE: api/Administradors/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<DataModels.Administrador>> DeleteAdministrador(int id)
         {
-            var administrador = new BS.Admin(_context).GetOneById(id);
-            if (administrador == null)
+            var admin = new BS.Administrador(_context).GetOneById(id);
+            if (admin == null)
             {
                 return NotFound();
             }
 
-            new BS.Admin(_context).Delete(administrador);
-            var mappaux = _mapper.Map<data.Administrador, DataModels.Administrador>(administrador);
+            new BS.Administrador(_context).Delete(admin);
+            var mappaux = _mapper.Map<data.Administrador, DataModels.Administrador>(admin);
 
             return mappaux;
         }
 
         private bool AdministradorExists(int id)
         {
-        return (new BS.Admin(_context).GetOneById(id) != null);
+            return (new BS.Administrador(_context).GetOneById(id) != null);
         }
     }
 }
+

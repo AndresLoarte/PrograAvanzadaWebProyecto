@@ -22,7 +22,7 @@ namespace Solution.DAL
         public void Delete(data.Cliente t)
         {
             _repo.Delete(t);
-            _repo.Commit(); ;
+            _repo.Commit();
         }
 
         public data.Cliente GetOneById(int id)

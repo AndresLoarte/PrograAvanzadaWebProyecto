@@ -13,10 +13,10 @@ namespace Solution.DAL.EF
         {
         }
 
-        //public  DbSet<Administrador> Administrador { get; set; }
+        public  DbSet<Administrador> Administrador { get; set; }
         //public  DbSet<Auditoria> Auditoria { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
-        //public  DbSet<Equipo> Equipo { get; set; }
+        public  DbSet<Equipo> Equipo { get; set; }
         //public  DbSet<Observaciones> Observaciones { get; set; }
         public  DbSet<Reserva> Reserva { get; set; }
         //public  DbSet<Roles> Roles { get; set; }
@@ -27,27 +27,27 @@ namespace Solution.DAL.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Administrador>(entity =>
-            //{
-            //    entity.Property(e => e.AdministradorId).HasColumnName("AdministradorID");
+            modelBuilder.Entity<Administrador>(entity =>
+            {
+                entity.Property(e => e.AdministradorId).HasColumnName("AdministradorID");
 
-            //    entity.Property(e => e.Correo).HasMaxLength(50);
+                entity.Property(e => e.Correo).HasMaxLength(50);
 
-            //    entity.Property(e => e.NombreAdministrador).HasMaxLength(50);
+                entity.Property(e => e.NombreAdministrador).HasMaxLength(50);
 
-            //    entity.Property(e => e.PrimerApellido).HasMaxLength(50);
+                entity.Property(e => e.PrimerApellido).HasMaxLength(50);
 
-            //    entity.Property(e => e.SegundoApellido)
-            //        .IsRequired()
-            //        .HasMaxLength(50);
+                entity.Property(e => e.SegundoApellido)
+                    .IsRequired()
+                    .HasMaxLength(50);
 
-            //    entity.Property(e => e.UsuarioId).HasColumnName("UsuarioID");
+                entity.Property(e => e.UsuarioId).HasColumnName("UsuarioID");
 
-            //    entity.HasOne(d => d.Usuario)
-            //        .WithMany(p => p.Administrador)
-            //        .HasForeignKey(d => d.UsuarioId)
-            //        .HasConstraintName("FK_Administrador_usuario");
-            //});
+                entity.HasOne(d => d.Usuario)
+                    .WithMany(p => p.Administrador)
+                    .HasForeignKey(d => d.UsuarioId)
+                    .HasConstraintName("FK_Administrador_usuario");
+            });
 
             //modelBuilder.Entity<Auditoria>(entity =>
             //{
@@ -100,22 +100,22 @@ namespace Solution.DAL.EF
                     .HasConstraintName("FK_Cliente_usuario");
             });
 
-            //modelBuilder.Entity<Equipo>(entity =>
-            //{
-            //    entity.Property(e => e.EquipoId).HasColumnName("EquipoID");
+            modelBuilder.Entity<Equipo>(entity =>
+            {
+                entity.Property(e => e.EquipoId).HasColumnName("EquipoID");
 
-            //    entity.Property(e => e.NombreEquipo)
-            //        .IsRequired()
-            //        .HasMaxLength(50);
+                entity.Property(e => e.NombreEquipo)
+                    .IsRequired()
+                    .HasMaxLength(50);
 
-            //    entity.Property(e => e.TipoEquipoId).HasColumnName("TipoEquipoID");
+                entity.Property(e => e.TipoEquipoId).HasColumnName("TipoEquipoID");
 
-            //    entity.HasOne(d => d.TipoEquipo)
-            //        .WithMany(p => p.Equipo)
-            //        .HasForeignKey(d => d.TipoEquipoId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("fk_TipoEquipo");
-            //});
+                entity.HasOne(d => d.TipoEquipo)
+                    .WithMany(p => p.Equipo)
+                    .HasForeignKey(d => d.TipoEquipoId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("fk_TipoEquipo");
+            });
 
             //modelBuilder.Entity<Observaciones>(entity =>
             //{

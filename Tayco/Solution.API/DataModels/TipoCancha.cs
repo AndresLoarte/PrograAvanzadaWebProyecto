@@ -7,9 +7,7 @@ namespace Solution.API.DataModels
 {
     public class TipoCancha
     {
-
         public int TipoCanchaId { get; set; }
         public string NombreCancha { get; set; }
- 
     }
 }

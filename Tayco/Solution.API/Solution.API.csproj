@@ -5,13 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\AdministradorController.cs" />
-    <Compile Remove="DataModels\Administrador.cs" />
     <Compile Remove="DataModels\Auditoria.cs" />
-    <Compile Remove="DataModels\Equipo.cs" />
     <Compile Remove="DataModels\Observaciones.cs" />
     <Compile Remove="DataModels\Roles.cs" />
-    <Compile Remove="DataModels\TipoEquipo.cs" />
     <Compile Remove="DataModels\UsersInRoles.cs" />
   </ItemGroup>
 
