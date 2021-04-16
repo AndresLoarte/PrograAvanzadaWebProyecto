@@ -20,8 +20,8 @@ namespace Solution.DO.Objects
         public bool Estado { get; set; }
         public int? UsuarioId { get; set; }
 
-        public virtual Users Usuario { get; set; }
-        public virtual ICollection<Reserva> Reserva { get; set; }
+        public Users Usuario { get; set; }
+        public ICollection<Reserva> Reserva { get; set; }
     }
 }
 

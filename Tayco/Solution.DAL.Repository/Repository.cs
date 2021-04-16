@@ -14,12 +14,12 @@ namespace Solution.DAL.Repository
 
         public Repository(SolutionDBContext context)
         {
-            this.dbContext = context;
+            dbContext = context;
         }
 
-        public void AddRange(IEnumerable<T> entities)
+        public void AddRange(IEnumerable<T> t)
         {
-            dbContext.Set<T>().AddRange(entities);
+            dbContext.Set<T>().AddRange(t);
         }
 
         public IQueryable<T> AsQueryable()
@@ -70,9 +70,9 @@ namespace Solution.DAL.Repository
             }
         }
 
-        public void RemoveRange(IEnumerable<T> entities)
+        public void RemoveRange(IEnumerable<T> t)
         {
-            dbContext.Set<T>().RemoveRange(entities);
+            dbContext.Set<T>().RemoveRange(t);
         }
 
         public IEnumerable<T> Search(Expression<Func<T, bool>> predicado)
@@ -89,6 +89,11 @@ namespace Solution.DAL.Repository
 
             dbContext.Entry<T>(t).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
 
+        }
+
+        public void UpdateRange(IEnumerable<T> t)
+        {
+            dbContext.Set<T>().UpdateRange(t);
         }
     }
 }

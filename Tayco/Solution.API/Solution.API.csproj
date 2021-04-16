@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\AdministradorController.cs" />
+    <Compile Remove="DataModels\Administrador.cs" />
+    <Compile Remove="DataModels\Auditoria.cs" />
+    <Compile Remove="DataModels\Equipo.cs" />
+    <Compile Remove="DataModels\Observaciones.cs" />
+    <Compile Remove="DataModels\Roles.cs" />
+    <Compile Remove="DataModels\TipoEquipo.cs" />
+    <Compile Remove="DataModels\UsersInRoles.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.14" />
@@ -18,9 +29,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Solution.API.W\Solution.API.W.csproj" />
     <ProjectReference Include="..\Solution.BS\Solution.BS.csproj" />
     <ProjectReference Include="..\Solution.DAL.EF\Solution.DAL.EF.csproj" />
+    <ProjectReference Include="..\Solution.DAL.Repository\Solution.DAL.Repository.csproj" />
+    <ProjectReference Include="..\Solution.DAL\Solution.DAL.csproj" />
     <ProjectReference Include="..\Solution.DO\Solution.DO.csproj" />
   </ItemGroup>
 

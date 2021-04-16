@@ -8,12 +8,12 @@ using data = Solution.DO;
 
 namespace Solution.DAL
 {
-    public class User : ICRUD<data.Objects.Users>
+    public class Users : ICRUD<data.Objects.Users>
     {
 
         private Repository<data.Objects.Users> _repo = null;
 
-        public User(SolutionDBContext solutionDbContext)
+        public Users(SolutionDBContext solutionDbContext)
         {
             _repo = new Repository<data.Objects.Users>(solutionDbContext);
         }

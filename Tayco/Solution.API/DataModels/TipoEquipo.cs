@@ -7,5 +7,7 @@ namespace Solution.API.DataModels
 {
     public class TipoEquipo
     {
+        public int TipoEquipoId { get; set; }
+        public string NombreTipo { get; set; }
     }
 }

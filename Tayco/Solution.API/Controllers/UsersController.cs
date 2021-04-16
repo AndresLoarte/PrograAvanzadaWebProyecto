@@ -28,7 +28,7 @@ namespace Solution.API.Controllers
         public async Task<ActionResult<IEnumerable<DataModels.Users>>> GetUsers()
         {
 
-            var aux = new BS.User(_context).GetAll().ToList();
+            var aux = new BS.Users(_context).GetAll().ToList();
             var mappaux = _mapper.Map<IEnumerable<data.Users>, IEnumerable<DataModels.Users>>(aux).ToList();
             return mappaux.ToList();
 
@@ -38,7 +38,7 @@ namespace Solution.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<DataModels.Users>> GetUsers(int id)
         {
-            var users = new BS.User(_context).GetOneById(id);
+            var users = new BS.Users(_context).GetOneById(id);
 
             var mappaux = _mapper.Map<data.Users, DataModels.Users>(users);
 
@@ -66,7 +66,7 @@ namespace Solution.API.Controllers
 
                 var mappaux = _mapper.Map<DataModels.Users, data.Users>(users);
 
-                new BS.User(_context).Update(mappaux);
+                new BS.Users(_context).Update(mappaux);
             }
             catch (Exception ee)
             {
@@ -91,7 +91,7 @@ namespace Solution.API.Controllers
         {
             var mappaux = _mapper.Map<DataModels.Users, data.Users>(users);
 
-            new BS.User(_context).Insert(mappaux);
+            new BS.Users(_context).Insert(mappaux);
 
             return CreatedAtAction("GetGroups", new { id = users.UserId }, users);
         }
@@ -100,13 +100,13 @@ namespace Solution.API.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<DataModels.Users>> DeleteUsers(int id)
         {
-            var users = new BS.User(_context).GetOneById(id);
+            var users = new BS.Users(_context).GetOneById(id);
             if (users == null)
             {
                 return NotFound();
             }
 
-            new BS.User(_context).Delete(users);
+            new BS.Users(_context).Delete(users);
             var mappaux = _mapper.Map<data.Users, DataModels.Users>(users);
 
             return mappaux;
@@ -114,7 +114,7 @@ namespace Solution.API.Controllers
 
         private bool UsersExists(int id)
         {
-            return (new BS.User(_context).GetOneById(id) != null);
+            return (new BS.Users(_context).GetOneById(id) != null);
         }
     }
 }

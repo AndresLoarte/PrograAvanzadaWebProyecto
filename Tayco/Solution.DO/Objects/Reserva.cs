@@ -18,9 +18,9 @@ namespace Solution.DO.Objects
         public DateTime Hora { get; set; }
         public bool Estado { get; set; }
 
-        public virtual Cliente Cliente { get; set; }
-        public virtual TipoCancha TipoCancha { get; set; }
-        public virtual ICollection<Auditoria> Auditoria { get; set; }
+        public Cliente Cliente { get; set; }
+        public TipoCancha TipoCancha { get; set; }
+        public ICollection<Auditoria> Auditoria { get; set; }
     }
 }
 
