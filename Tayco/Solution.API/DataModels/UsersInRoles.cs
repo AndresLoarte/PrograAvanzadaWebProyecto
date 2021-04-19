@@ -9,7 +9,6 @@ namespace Solution.API.DataModels
     {
         public int UserUserId { get; set; }
         public int RoleRoleId { get; set; }
-
         public Roles RoleRole { get; set; }
         public Users UserUser { get; set; }
     }

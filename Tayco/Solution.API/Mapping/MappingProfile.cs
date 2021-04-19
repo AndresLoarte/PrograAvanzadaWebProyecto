@@ -18,11 +18,11 @@ namespace Solution.API.Mapping
             CreateMap<data.Equipo, DataModels.Equipo>().ReverseMap();
             CreateMap<data.Observaciones, DataModels.Observaciones>().ReverseMap();
             CreateMap<data.Reserva, DataModels.Reserva>().ReverseMap();
-            //CreateMap<data.Roles, DataModels.Roles>().ReverseMap();
+            CreateMap<data.Roles, DataModels.Roles>().ReverseMap();
             CreateMap<data.TipoCancha, DataModels.TipoCancha>().ReverseMap();
             CreateMap<data.TipoEquipo, DataModels.TipoEquipo>().ReverseMap();
             CreateMap<data.Users, DataModels.Users>().ReverseMap();
-            //CreateMap<data.UsersInRoles, DataModels.UsersInRoles>().ReverseMap();
+            CreateMap<data.UsersInRoles, DataModels.UsersInRoles>().ReverseMap();
 
         }
 

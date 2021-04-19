@@ -92,7 +92,7 @@ namespace Solution.API.Controllers
             var mappaux = _mapper.Map<DataModels.Administrador, data.Administrador>(administrador);
             new BS.Administrador(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetAuditoria", new { id = administrador.AdministradorId }, administrador);
+            return CreatedAtAction("GetAdministrador", new { id = administrador.AdministradorId }, administrador);
         }
 
         // DELETE: api/Administradors/5
