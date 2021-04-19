@@ -18,7 +18,7 @@ namespace Solution.DAL.Repository
 
         public async Task<IEnumerable<Equipo>> GetAllWithAsync()
         {
-            return await context.Equipo.Include(m => m.EquipoId).ToListAsync();
+            return await context.Equipo.Include(m => m.TipoEquipo).ToListAsync();
         }
 
         public async Task<Equipo> GetOneByIdWithAsync(int id)

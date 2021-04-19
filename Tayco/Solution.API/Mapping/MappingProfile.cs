@@ -13,10 +13,10 @@ namespace Solution.API.Mapping
         {
 
             CreateMap<data.Administrador, DataModels.Administrador>().ReverseMap();
-            //CreateMap<data.Auditoria, DataModels.Auditoria>().ReverseMap();
+            CreateMap<data.Auditoria, DataModels.Auditoria>().ReverseMap();
             CreateMap<data.Cliente, DataModels.Cliente>().ReverseMap();
             CreateMap<data.Equipo, DataModels.Equipo>().ReverseMap();
-            //CreateMap<data.Observaciones, DataModels.Observaciones>().ReverseMap();
+            CreateMap<data.Observaciones, DataModels.Observaciones>().ReverseMap();
             CreateMap<data.Reserva, DataModels.Reserva>().ReverseMap();
             //CreateMap<data.Roles, DataModels.Roles>().ReverseMap();
             CreateMap<data.TipoCancha, DataModels.TipoCancha>().ReverseMap();

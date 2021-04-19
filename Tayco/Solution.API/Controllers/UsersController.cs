@@ -93,7 +93,7 @@ namespace Solution.API.Controllers
 
             new BS.Users(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetGroups", new { id = users.UserId }, users);
+            return CreatedAtAction("GetUsers", new { id = users.UserId }, users);
         }
 
         // DELETE: api/Users/5

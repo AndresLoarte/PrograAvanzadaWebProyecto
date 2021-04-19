@@ -92,7 +92,7 @@ namespace Solution.API.Controllers
             var mappaux = _mapper.Map<DataModels.Equipo, data.Equipo>(equipo);
             new BS.Equipo(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetCliente", new { id = equipo.EquipoId }, equipo);
+            return CreatedAtAction("GetEquipo", new { id = equipo.EquipoId }, equipo);
         }
 
         // DELETE: api/Equipoes/5

@@ -91,7 +91,7 @@ namespace Solution.API.Controllers
 
             new BS.TipoEquipo(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetGroups", new { id = tipoEquipo.TipoEquipoId }, tipoEquipo);
+            return CreatedAtAction("GetTipoEquipo", new { id = tipoEquipo.TipoEquipoId }, tipoEquipo);
         }
 
         // DELETE: api/TipoEquipoes/5

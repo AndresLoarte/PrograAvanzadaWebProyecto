@@ -91,7 +91,7 @@ namespace Solution.API.Controllers
 
             new BS.TipoCancha(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetGroups", new { id = tipoCancha.TipoCanchaId }, tipoCancha);
+            return CreatedAtAction("GetTipoCancha", new { id = tipoCancha.TipoCanchaId }, tipoCancha);
         }
 
         // DELETE: api/TipoCanchas/5
