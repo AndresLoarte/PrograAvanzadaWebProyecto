@@ -30,9 +30,9 @@ namespace Solution.DAL
             return _repo.GetAll();
         }
 
-        public data.UsersInRoles GetOneById(int id)
+        public data.UsersInRoles GetOneById(int Role_RoleID)
         {
-            return _repo.GetOneById(id);
+            return _repo.GetOneById(Role_RoleID);
         }
 
         public void Insert(data.UsersInRoles t)
@@ -52,9 +52,9 @@ namespace Solution.DAL
             return await _repo.GetAllWithAsync();
         }
 
-        public async Task<data.UsersInRoles> GetOneByIdInclude(int id)
+        public async Task<data.UsersInRoles> GetOneByIdInclude(int Role_RoleID, int User_UserID)
         {
-            return await _repo.GetOneByIdWithAsync(id);
+            return await _repo.GetOneByIdWithAsync(Role_RoleID, User_UserID);
         }
 
     }

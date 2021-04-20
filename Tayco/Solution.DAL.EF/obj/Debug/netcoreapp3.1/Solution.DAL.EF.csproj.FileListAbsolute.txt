@@ -25,18 +25,3 @@ C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en W
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.dll
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.genruntimeconfig.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.csprojAssemblyReference.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.AssemblyInfoInputs.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.AssemblyInfo.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.csproj.CoreCompileInputs.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.dll
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DAL.EF.deps.json
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DAL.EF.runtimeconfig.json
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DAL.EF.runtimeconfig.dev.json
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DO.dll
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\bin\Debug\netcoreapp3.1\Solution.DO.pdb
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.csproj.CopyComplete
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco\Solution.DAL.EF\obj\Debug\netcoreapp3.1\Solution.DAL.EF.genruntimeconfig.cache

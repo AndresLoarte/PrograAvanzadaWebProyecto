@@ -18,7 +18,7 @@ namespace Solution.DAL.Repository
 
         public async Task<IEnumerable<Administrador>> GetAllWithAsync()
         {
-            return await context.Administrador.Include(m => m.AdministradorId).ToListAsync();
+            return await context.Administrador.Include(m => m.Usuario).ToListAsync();
         }
 
         public async Task<Administrador> GetOneByIdWithAsync(int id)

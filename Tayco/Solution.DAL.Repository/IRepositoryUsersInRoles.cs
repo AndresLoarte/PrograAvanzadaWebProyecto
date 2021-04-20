@@ -9,6 +9,6 @@ namespace Solution.DAL.Repository
     public interface IRepositoryUsersInRoles : IRepository<UsersInRoles>
     {
         Task<IEnumerable<UsersInRoles>> GetAllWithAsync();
-        Task<UsersInRoles> GetOneByIdWithAsync(int id);
+        Task<UsersInRoles> GetOneByIdWithAsync(int Role_RoleID, int User_UserID);
     }
 }

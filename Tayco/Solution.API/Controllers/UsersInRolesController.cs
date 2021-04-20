@@ -37,10 +37,10 @@ namespace Solution.API.Controllers
 
         // GET: api/UsersInRoles/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<DataModels.UsersInRoles>> GetUsersInRoles(int id)
+        public async Task<ActionResult<DataModels.UsersInRoles>> GetUsersInRoles(int Role_RoleID, int User_UserID)
         {
             // carga de datos
-            var aux = await new BS.UsersInRoles(_context).GetOneByIdInclude(id);
+            var aux = await new BS.UsersInRoles(_context).GetOneByIdInclude(Role_RoleID, User_UserID);
 
             //implementacion del automapper
             var mappaux = _mapper.Map<data.UsersInRoles, DataModels.UsersInRoles>(aux);
