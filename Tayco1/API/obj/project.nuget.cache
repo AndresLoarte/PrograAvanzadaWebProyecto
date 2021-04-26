@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XJXepJOHUS36vscxmrHvpDoGD6aztQ0OoFXOWXfaQUMXsjmj5dpXeOFkv+dqybVH59pWGtFYMdhPXsEhPextQQ==",
+  "dgSpecHash": "9cSxuhzUZvrIXlxx6P9emAnYw/Qup8I9Csy5FE02R/Ufvew+OjFcjjglEek2TPmFcPbFSwvhH+0tvHWPYXSyKw==",
   "success": true,
-  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\API\\API.csproj",
+  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

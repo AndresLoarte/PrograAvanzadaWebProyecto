@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\BS.csproj": {}
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\BS.csproj": {}
   },
   "projects": {
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\BS.csproj": {
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\BS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\BS.csproj",
+        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\BS.csproj",
         "projectName": "BS",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\BS.csproj",
+        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\BS.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\obj\\",
+        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj"
               },
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\DAL.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\DAL.csproj"
               },
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj": {
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj",
+        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj",
         "projectName": "DAL.EF",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj",
+        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\obj\\",
+        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,8 +116,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\DAL.Repository.csproj": {
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\DAL.Repository.csproj",
+        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\DAL.Repository.csproj",
         "projectName": "DAL.Repository",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\DAL.Repository.csproj",
+        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\DAL.Repository.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\obj\\",
+        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,8 +194,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj"
               }
             }
           }
@@ -244,14 +244,14 @@
         }
       }
     },
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\DAL.csproj": {
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL\\obj\\",
+        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,14 +272,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.EF\\DAL.EF.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.EF\\DAL.EF.csproj"
               },
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\DAL.Repository.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DAL.Repository\\DAL.Repository.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\DAL.Repository.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DAL.Repository\\DAL.Repository.csproj"
               },
-              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj": {
-                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj"
+              "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj": {
+                "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj"
               }
             }
           }
@@ -328,14 +328,14 @@
         }
       }
     },
-    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj": {
+    "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj",
+        "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj",
         "projectName": "DO",
-        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\DO.csproj",
+        "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\DO.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\DO\\obj\\",
+        "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\DO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

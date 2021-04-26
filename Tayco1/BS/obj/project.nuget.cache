@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61bX3gAeh15QxrYTmtspqkXnQwOWoYF8hkUQYJB8uXE8gJXIapK6rJrarlPvMTs0KPfEYufBANzlW+SZGaS3Hw==",
+  "dgSpecHash": "DtWSwV4O1uSs20lN+fVYNzBpqrbK1lNeNBi72v4Fg7uv01GRqIvgykyNw/AZH8ZWZWgC5ckkH3f04ORsksNslQ==",
   "success": true,
-  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\Tayco\\BS\\BS.csproj",
+  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\Tayco1\\BS\\BS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

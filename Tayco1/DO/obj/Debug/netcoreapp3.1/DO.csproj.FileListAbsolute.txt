@@ -10,3 +10,15 @@ C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en W
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\Tayco\DO\obj\Debug\netcoreapp3.1\DO.dll
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\Tayco\DO\obj\Debug\netcoreapp3.1\DO.pdb
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\Tayco\DO\obj\Debug\netcoreapp3.1\DO.genruntimeconfig.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.deps.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.runtimeconfig.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.runtimeconfig.dev.json
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfoInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfo.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.dll
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.pdb
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.genruntimeconfig.cache
