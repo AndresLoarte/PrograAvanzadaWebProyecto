@@ -14,7 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="DataModels\" />
+    <Folder Include="Mapping\" />
   </ItemGroup>
 
 
