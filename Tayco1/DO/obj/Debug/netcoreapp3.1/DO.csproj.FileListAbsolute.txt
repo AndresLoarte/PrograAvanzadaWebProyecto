@@ -22,3 +22,15 @@ C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en W
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.dll
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.pdb
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.genruntimeconfig.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.deps.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.runtimeconfig.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.runtimeconfig.dev.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\bin\Debug\netcoreapp3.1\DO.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.genruntimeconfig.cache

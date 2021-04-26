@@ -14,7 +14,7 @@ namespace Solution.DAL
     {
 
 
-        private IRepositoryAdministrador _repo = null;
+        private RepositoryAdministrador _repo = null;
 
         public Administrador(SolutionDBContext solutionDbContext)
         {

@@ -32,3 +32,20 @@ C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en W
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.dll
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.pdb
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.genruntimeconfig.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.deps.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.dev.json
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.EF.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DO.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\bin\Debug\netcoreapp3.1\DO.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csprojAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CopyComplete
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.genruntimeconfig.cache
