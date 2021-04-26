@@ -37,7 +37,7 @@ namespace Solution.API.W.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=FAMILIALU;Database=Tayco;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=ANDRESLOARTE;Database=Tayco;Trusted_Connection=True;");
             }
         }
 

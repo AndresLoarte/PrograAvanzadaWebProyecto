@@ -7,7 +7,7 @@ namespace Solution.API.DataModels
 {
     public class Administrador
     {
-        public int AdministradorId { get; set; }
+        public int AdministradorID { get; set; }
 
         public string NombreAdministrador { get; set; }
 
@@ -22,5 +22,8 @@ namespace Solution.API.DataModels
         public bool? Estado { get; set; }
 
         public int? UsuarioId { get; set; }
+
+        public Users Usuario { get; set; }
+
     }
 }

@@ -7,7 +7,7 @@ namespace Solution.DO.Objects
     public class Administrador
     {
        
-            public int AdministradorId { get; set; }
+            public int AdministradorID { get; set; }
             public string NombreAdministrador { get; set; }
             public string PrimerApellido { get; set; }
             public string SegundoApellido { get; set; }

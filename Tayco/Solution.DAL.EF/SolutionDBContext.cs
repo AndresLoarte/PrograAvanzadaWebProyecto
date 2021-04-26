@@ -29,7 +29,7 @@ namespace Solution.DAL.EF
         {
             modelBuilder.Entity<Administrador>(entity =>
             {
-                entity.Property(e => e.AdministradorId).HasColumnName("AdministradorID");
+                entity.Property(e => e.AdministradorID).HasColumnName("AdministradorID");
 
                 entity.Property(e => e.Correo).HasMaxLength(50);
 

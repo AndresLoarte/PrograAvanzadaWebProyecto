@@ -58,7 +58,7 @@ namespace Solution.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAdministrador(int id, DataModels.Administrador administrador)
         {
-            if (id != administrador.AdministradorId)
+            if (id != administrador.AdministradorID)
             {
                 return BadRequest();
             }
@@ -92,7 +92,7 @@ namespace Solution.API.Controllers
             var mappaux = _mapper.Map<DataModels.Administrador, data.Administrador>(administrador);
             new BS.Administrador(_context).Insert(mappaux);
 
-            return CreatedAtAction("GetAdministrador", new { id = administrador.AdministradorId }, administrador);
+            return CreatedAtAction("GetAdministrador", new { id = administrador.AdministradorID }, administrador);
         }
 
         // DELETE: api/Administradors/5

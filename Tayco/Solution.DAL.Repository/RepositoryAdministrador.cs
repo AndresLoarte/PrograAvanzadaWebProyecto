@@ -23,7 +23,7 @@ namespace Solution.DAL.Repository
 
         public async Task<Administrador> GetOneByIdWithAsync(int id)
         {
-            return await context.Administrador.Include(m => m.Usuario).SingleOrDefaultAsync(m => m.AdministradorId == id);
+            return await context.Administrador.Include(m => m.Usuario).SingleOrDefaultAsync(m => m.AdministradorID == id);
         }
 
         private SolutionDBContext context
