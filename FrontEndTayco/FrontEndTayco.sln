@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd.W", "FrontEnd.W\FrontEnd.W.csproj", "{3DF87877-8E25-4AC8-9AFE-0A27F81A63C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd.API", "FrontEnd.API\FrontEnd.API.csproj", "{D74C217A-5897-417F-8257-293B7AC57A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF87877-8E25-4AC8-9AFE-0A27F81A63C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF87877-8E25-4AC8-9AFE-0A27F81A63C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF87877-8E25-4AC8-9AFE-0A27F81A63C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF87877-8E25-4AC8-9AFE-0A27F81A63C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74C217A-5897-417F-8257-293B7AC57A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74C217A-5897-417F-8257-293B7AC57A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74C217A-5897-417F-8257-293B7AC57A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74C217A-5897-417F-8257-293B7AC57A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B397F3B-5CB8-496E-BB7F-71E49859B94B}
+	EndGlobalSection
+EndGlobal
