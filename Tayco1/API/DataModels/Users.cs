@@ -7,10 +7,10 @@ namespace API.DataModels
 {
     public class Users
     {
-        public Users()
-        {
-            Reserva = new HashSet<Reserva>();
-        }
+        //public Users()
+        //{
+        //    Reserva = new HashSet<Reserva>();
+        //}
 
         public int UserId { get; set; }
         public string UserName { get; set; }
@@ -24,6 +24,6 @@ namespace API.DataModels
         public int RoleId { get; set; }
 
         public Roles Role { get; set; }
-        public ICollection<Reserva> Reserva { get; set; }
+        //public ICollection<Reserva> Reserva { get; set; }
     }
 }
