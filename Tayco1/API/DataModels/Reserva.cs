@@ -16,7 +16,7 @@ namespace API.DataModels
         public bool Estado { get; set; }
 
         public Equipo Equipo { get; set; }
-        //public TipoCancha TipoCancha { get; set; }
-        //public Users User { get; set; }
+        public TipoCancha TipoCancha { get; set; }
+        public Users User { get; set; }
     }
 }

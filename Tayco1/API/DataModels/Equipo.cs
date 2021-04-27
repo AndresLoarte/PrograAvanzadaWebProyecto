@@ -14,6 +14,6 @@ namespace API.DataModels
         public int TipoEquipoId { get; set; }
         public bool Estado { get; set; }
 
-       // public TipoEquipo TipoEquipo { get; set; }
+        public TipoEquipo TipoEquipo { get; set; }
     }
 }
