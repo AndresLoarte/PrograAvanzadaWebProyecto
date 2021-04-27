@@ -7,14 +7,14 @@ namespace API.DataModels
 {
     public class TipoEquipo
     {
-        public TipoEquipo()
-        {
-            Equipo = new HashSet<Equipo>();
-        }
+        //public TipoEquipo()
+        //{
+        //    Equipo = new HashSet<Equipo>();
+        //}
 
         public int TipoEquipoId { get; set; }
         public string NombreTipo { get; set; }
 
-        public ICollection<Equipo> Equipo { get; set; }
+        //public ICollection<Equipo> Equipo { get; set; }
     }
 }

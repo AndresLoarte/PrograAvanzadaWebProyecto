@@ -38,7 +38,7 @@ namespace BS
 
         public void Update(DO.Objects.TipoEquipo t)
         {
-            new DAL.TipoEquipo(context).Insert(t);
+            new DAL.TipoEquipo(context).Update(t);
         }
     }
 }
