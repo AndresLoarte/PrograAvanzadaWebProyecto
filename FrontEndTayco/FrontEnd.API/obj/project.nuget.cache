@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H4RZQz30QTI9iMKYKCB9dAiO6PSBPLe1c/8Kp69C1TITkRw9ue9AmEPu88baFfbJz2svwP4ZYb/GJ18Znnv5CA==",
+  "dgSpecHash": "ZEaZNEiCnnoEmeOlzcER9w3NiSt/yspSXYEtnf70EMXGAD+fS5RKD0i72S02h6YkPhEqVum/2bdXcCoaCA7RIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\FrontEndTayco\\FrontEnd.API\\FrontEnd.API.csproj",
+  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\FrontEndTayco\\FrontEnd.API\\FrontEnd.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

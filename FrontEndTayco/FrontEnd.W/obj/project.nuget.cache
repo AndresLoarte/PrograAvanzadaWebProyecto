@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/CoFKmvCYzmLJztvoNla+odXre8wCXEG5omj2fniRZLPItH6pvzOXwtOemcM8ysytEL56dXIVwCuQWdkAP/wg==",
+  "dgSpecHash": "w4b+MUQhvVx3RHm5+vJssb48xQWcih7XCz9ZHFjBnfOHhxRwkC9/3RkiJj2NAHRBWlM9X5Z8Gh5uAdgP+6BBvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
+  "projectFilePath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

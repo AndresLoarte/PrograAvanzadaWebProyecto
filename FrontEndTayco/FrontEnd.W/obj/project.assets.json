@@ -8482,11 +8482,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
+      "projectUniqueName": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
       "projectName": "FrontEnd.W",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
+      "projectPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\FrontEndTayco\\FrontEnd.W\\FrontEnd.W.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\FrontEndTayco\\FrontEnd.W\\obj\\",
+      "outputPath": "C:\\Aplicaciones\\Universidad\\11. Undecimo Cuatrimestre\\Programacion Avanzada en Web\\Proyecto\\Progra\\PrograAvanzadaWebProyecto\\FrontEndTayco\\FrontEnd.W\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
