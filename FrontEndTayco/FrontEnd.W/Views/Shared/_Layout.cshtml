@@ -24,7 +24,7 @@
     <link href="~/css/style-responsive.css" rel="stylesheet" />
     <script src="~/lib/chart-master/Chart.js"></script>
 
-  
+
 </head>
 
 <body>
@@ -37,7 +37,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo"><b>TAY<span>CO</span></b></a>
+            <a href="~/index.html" class="logo"><b>TAY<span>CO</span></b></a>
             <!--logo end-->
 
             <div class="nav notify-row" id="top_menu"> </div>
@@ -45,8 +45,9 @@
             <div class="top-menu">
                 <ul class="nav pull-right top-menu">
                     <li>
-                        <a class="logout" href="index_login.html" role="button">
+                        <a class="logout" asp-area="" asp-controller="Login" asp-action="Index" role="button">
                             <i class="fa fa-home  fa-2x " aria-hidden="true"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -72,13 +73,19 @@
                         </a>
                     </li>
                     <li class="">
-                        <i class="fa fa-tasks"></i>
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">Reservas</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">
+                            <i class="fa fa-tasks"></i>
+                            <span>Reservas</span>
+                        </a>
                     </li>
+
                     <li class="">
-                        <i class="fa fa-tasks"></i>
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Equipoes" asp-action="Index">Equipos</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Equipoes" asp-action="Index">
+                            <i class="fa fa-tasks"></i>
+                            <span>Equipos</span>
+                        </a>
                     </li>
+
                     <li class="sub-menu">
                         <a href="javascript:;">
                             <i class="fa fa-user"></i>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FrontEnd.W.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,20 @@ namespace FrontEnd.W.Controllers
 {
     public class LoginController : Controller
     {
+
+        private readonly TaycoContext _context;
+
+        public LoginController(TaycoContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            Users user = new Users();
+            return View(user);
         }
+
+       
     }
 }

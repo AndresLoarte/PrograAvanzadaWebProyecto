@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Users
+@{
     ViewData["Title"] = "Login";
     Layout = null;
 }
@@ -42,12 +43,14 @@
                 <!--arrow-circle-left-->
                 <div class="card-body">
                     <h2 class="title">Login</h2>
-                    <form method="POST">
+                    <form asp-controller="Users" asp-action="Index" method="post">
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="Usuario" name="name">
+                            <input asp-for="UserName" class="input--style-3" placeholder="Usuario" name="name">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
                         </div>
                         <div class="input-group">
-                            <input class="input--style-3" type="password" placeholder="Contraseña" name="password">
+                            <input asp-for="Password" class="input--style-3" type="password" placeholder="Contraseña" name="password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
                         <div class="p-t-10">
@@ -63,6 +66,7 @@
                         </div>
                     </form>
                 </div>
+                <label id="indexMessage" class="error">@Html.DisplayFor(m => m.ErrorMessage)</label>
             </div>
         </div>
     </div>
@@ -73,11 +77,12 @@
     <script src="~/vendor/select2/select2.min.js"></script>
     <script src="~/vendor/datepicker/moment.min.js"></script>
     <script src="~/vendor/datepicker/daterangepicker.js"></script>
-
     <!-- Main JS-->
     <script src="~/js/global.js"></script>
-
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+    </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 </html>
 <!-- end document-->
