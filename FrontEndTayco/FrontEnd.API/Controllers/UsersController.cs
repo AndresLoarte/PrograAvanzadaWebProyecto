@@ -14,6 +14,7 @@ namespace FrontEnd.API.Controllers
     public class UsersController : Controller
     {
         string baseurl = "http://localhost:30091/";
+
         public async Task<IActionResult> Index()
         {
             List<data.Users> aux = new List<data.Users>();
@@ -63,7 +64,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] Models.Users users)
+        public async Task<IActionResult> Create([Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] data.Users users)
         {
             if (ModelState.IsValid)
             {
@@ -74,7 +75,7 @@ namespace FrontEnd.API.Controllers
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PostAsync("api/Administrador", byteContent).Result;
+                    var postTask = cl.PostAsync("api/Users", byteContent).Result;
 
                     if (postTask.IsSuccessStatusCode)
                     {
@@ -108,7 +109,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Users users)
+        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] data.Users users)
         {
             if (id != users.UserId)
             {

@@ -23,7 +23,7 @@ namespace API.DataModels
         public bool Estado { get; set; }
         public int RoleId { get; set; }
 
-        //public Roles Role { get; set; }
+        public Roles Role { get; set; }
         //public ICollection<Reserva> Reserva { get; set; }
     }
 }

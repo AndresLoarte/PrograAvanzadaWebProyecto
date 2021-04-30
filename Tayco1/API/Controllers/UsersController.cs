@@ -63,7 +63,7 @@ namespace API.Controllers
                 var mappaux = _mapper.Map<DataModels.Users, data.Users>(users);
                 new BS.Users(_context).Update(mappaux);
             }
-            catch (Exception)
+            catch (Exception ee)
             {
                 if (!UsersExists(id))
                 {
