@@ -368,6 +368,13 @@ C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en W
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.pdb
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.genruntimeconfig.cache
 C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\CreateUser.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteU.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteUser.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsU.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsUser.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\EditUser.cshtml.g.cs
+C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\IndexUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -491,7 +498,6 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.csprojAssemblyReference.cache
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.AssemblyInfoInputs.cache
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.AssemblyInfo.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.csproj.CoreCompileInputs.cache
@@ -515,17 +521,23 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Create.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\CreateUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Delete.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteU.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Details.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsU.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Edit.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\EditUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Index.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\IndexUser.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Create.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Delete.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Details.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Edit.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout - Copia.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\TipoCanchas\Create.cshtml.g.cs
@@ -554,19 +566,4 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.dll
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.pdb
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.genruntimeconfig.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Create - Copy.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\CreateU.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Delete - Copy.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteU.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Details - Copy.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsU.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Edit - Copy.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\EditU.cshtml.g.cs
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\Index - Copy.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\CreateUser.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteU.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DeleteUser.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsU.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\DetailsUser.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\EditUser.cshtml.g.cs
-C:\Aplicaciones\Universidad\11. Undecimo Cuatrimestre\Programacion Avanzada en Web\Proyecto\Progra\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\Razor\Views\Reservas\IndexUser.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.W\obj\Debug\netcoreapp3.1\FrontEnd.W.csprojAssemblyReference.cache

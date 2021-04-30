@@ -53,11 +53,7 @@
         <section id="main-content">
             <section class="wrapper">
                 <br />
-                <div class="col-lg-12">
-                    <a class="btn btn-xs" asp-area="" asp-controller="Reserva" asp-action="Index" role="button">
-                        <i class="fa fa-arrow-circle-left fa-2x " aria-hidden="true"></i>
-                    </a>
-                </div>
+     
                 <h3><i class="fa fa-angle-right"></i> Eliminación de la reserva</h3>
                 <div class="row mt">
                     <div class="col-md-12">
@@ -70,6 +66,8 @@
                                         <td>
                                             @Html.DisplayNameFor(model => model.FechaReserva)
                                         <td>
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.FechaReserva)
                                         <td>
@@ -78,39 +76,48 @@
                                         <td>
                                             @Html.DisplayNameFor(model => model.Hora)
                                         </td>
-                               
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.Hora)
                                         </td>
-                                   
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayNameFor(model => model.Estado)
                                         </td>
-                                    
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.Estado)
                                         </td>
-                                    
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayNameFor(model => model.Equipo.NombreEquipo)
                                         </td>
-                                    
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.Equipo.NombreEquipo)
                                         </td>
-                                   
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayNameFor(model => model.TipoCancha.Descripcion)
                                         </td>
-                                    
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.TipoCancha.Descripcion)
                                         </td>
-                                   
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayNameFor(model => model.User)
                                         </td>
-                                   
+                                    </tr>
+                                    <tr>
                                         <td>
                                             @Html.DisplayFor(model => model.User.Correo)
                                         </td>

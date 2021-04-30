@@ -32,3 +32,4 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netco
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.dll
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.pdb
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.genruntimeconfig.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\Tayco1\DO\obj\Debug\netcoreapp3.1\DO.csprojAssemblyReference.cache
