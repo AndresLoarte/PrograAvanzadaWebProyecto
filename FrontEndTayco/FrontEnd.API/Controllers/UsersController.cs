@@ -63,7 +63,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Users users)
+        public async Task<IActionResult> Create([Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] Models.Users users)
         {
             if (ModelState.IsValid)
             {

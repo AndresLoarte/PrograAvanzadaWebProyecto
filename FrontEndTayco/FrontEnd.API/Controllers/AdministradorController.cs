@@ -64,7 +64,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NombreAdministrador,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Administrador administrador)
+        public async Task<IActionResult> Create([Bind("AdministradorId,UserName,Password,NombreAdministrador,PrimerApellido,SegundoApellido,Correo,Telefono,Estado,RoleId")] Models.Administrador administrador)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("NombreAdministrador,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Administrador administrador)
+        public async Task<IActionResult> Edit(int id, [Bind("AdministradorId,UserName,Password,NombreAdministrador,PrimerApellido,SegundoApellido,Correo,Telefono,Estado,RoleId")] Models.Administrador administrador)
         {
             if (id != administrador.AdministradorId)
             {

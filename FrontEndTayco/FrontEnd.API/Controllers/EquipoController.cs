@@ -64,7 +64,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NombreEquipo,Cantidad,Estado,TipoEquipoId")] Models.Equipo equipo)
+        public async Task<IActionResult> Create([Bind("EquipoId,NombreEquipo,Cantidad,Estado,TipoEquipoId")] Models.Equipo equipo)
         {
             if (ModelState.IsValid)
             {
