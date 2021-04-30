@@ -11,29 +11,28 @@ using data = FrontEnd.API.Models;
 
 namespace FrontEnd.API.Controllers
 {
-    public class EquipoController : Controller
+    public class UsersController : Controller
     {
         string baseurl = "http://localhost:30091/";
         public async Task<IActionResult> Index()
         {
-            List<data.Equipo> aux = new List<data.Equipo>();
+            List<data.Users> aux = new List<data.Users>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/Equipo");
+                HttpResponseMessage res = await cl.GetAsync("api/Users");
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<data.Equipo>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<data.Users>>(auxres);
                 }
             }
             return View(aux);
         }
-
-        // GET: Equipo/Details/5
+        // GET: Users/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -41,41 +40,41 @@ namespace FrontEnd.API.Controllers
                 return NotFound();
             }
 
-            var equipo = GetById(id);
+            var users = GetById(id);
 
-            if (equipo == null)
+            if (users == null)
             {
                 return NotFound();
             }
 
-            return View(equipo);
+            return View(users);
         }
 
-        // GET: Equipo/Create
+        // GET: Users/Create
         public IActionResult Create()
         {
-            ViewData["TipoEquipoId"] = new SelectList(GetAllTipoEquipo(), "TipoEquipoId", "NombreTipo");
+            ViewData["RoleId"] = new SelectList(GetAllRoles(), "RoleId", "RoleName");
 
             return View();
         }
 
-        // POST: Equipo/Create
+        // POST: Users/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NombreEquipo,Cantidad,Estado,TipoEquipoId")] Models.Equipo equipo)
+        public async Task<IActionResult> Create([Bind("UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Users users)
         {
             if (ModelState.IsValid)
             {
                 using (var cl = new HttpClient())
                 {
                     cl.BaseAddress = new Uri(baseurl);
-                    var content = JsonConvert.SerializeObject(equipo);
+                    var content = JsonConvert.SerializeObject(users);
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PostAsync("api/Equipo", byteContent).Result;
+                    var postTask = cl.PostAsync("api/Administrador", byteContent).Result;
 
                     if (postTask.IsSuccessStatusCode)
                     {
@@ -84,10 +83,10 @@ namespace FrontEnd.API.Controllers
                 }
             }
 
-            return View(equipo);
+            return View(users);
         }
 
-        //GET: Equipo/Edit/5
+        //GET: Users/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -95,23 +94,23 @@ namespace FrontEnd.API.Controllers
                 return NotFound();
             }
 
-            var equipo = GetById(id);
-            if (equipo == null)
+            var users = GetById(id);
+            if (users == null)
             {
                 return NotFound();
             }
 
-            return View(equipo);
+            return View(users);
         }
 
-        // POST: Equipo/Edit/5
+        // POST: Users/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("EquipoId,NombreEquipo,Cantidad,TipoEquipoId,Estado")] Models.Equipo equipo)
+        public async Task<IActionResult> Edit(int id, [Bind("UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono")] Models.Users users)
         {
-            if (id != equipo.EquipoId)
+            if (id != users.UserId)
             {
                 return NotFound();
             }
@@ -123,11 +122,11 @@ namespace FrontEnd.API.Controllers
                     using (var cl = new HttpClient())
                     {
                         cl.BaseAddress = new Uri(baseurl);
-                        var content = JsonConvert.SerializeObject(equipo);
+                        var content = JsonConvert.SerializeObject(users);
                         var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                         var byteContent = new ByteArrayContent(buffer);
                         byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                        var postTask = cl.PutAsync("api/Equipo/" + id, byteContent).Result;
+                        var postTask = cl.PutAsync("api/Users/" + id, byteContent).Result;
 
                         if (postTask.IsSuccessStatusCode)
                         {
@@ -150,10 +149,10 @@ namespace FrontEnd.API.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(equipo);
+            return View(users);
         }
 
-        // GET: Equipo/Delete/5
+        // GET: Users/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -161,16 +160,16 @@ namespace FrontEnd.API.Controllers
                 return NotFound();
             }
 
-            var equipo = GetById(id);
-            if (equipo == null)
+            var users = GetById(id);
+            if (users == null)
             {
                 return NotFound();
             }
 
-            return View(equipo);
+            return View(users);
         }
 
-        // POST: Equipo/Delete/5
+        // POST: Users/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -180,7 +179,7 @@ namespace FrontEnd.API.Controllers
                 cl.BaseAddress = new Uri(baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.DeleteAsync("api/Equipo/" + id);
+                HttpResponseMessage res = await cl.DeleteAsync("api/Users/" + id);
 
                 if (res.IsSuccessStatusCode)
                 {
@@ -190,52 +189,50 @@ namespace FrontEnd.API.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EquipoExists(int id)
+        private bool UsersExists(int id)
         {
             return (GetById(id) != null);
         }
 
-        private data.Equipo GetById(int? id)
+        private data.Users GetById(int? id)
         {
-            data.Equipo aux = new data.Equipo();
+            data.Users aux = new data.Users();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 //HttpResponseMessage res = await cl.GetAsync("api/Pais/5?"+id);
-                HttpResponseMessage res = cl.GetAsync("api/Equipo/" + id).Result;
+                HttpResponseMessage res = cl.GetAsync("api/Users/" + id).Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<data.Equipo>(auxres);
+                    aux = JsonConvert.DeserializeObject<data.Users>(auxres);
                 }
             }
             return aux;
         }
 
-        private List<data.TipoEquipo> GetAllTipoEquipo()
+        private List<data.Roles> GetAllRoles()
         {
-            List<data.TipoEquipo> aux = new List<data.TipoEquipo>();
+            List<data.Roles> aux = new List<data.Roles>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 //HttpResponseMessage res = await cl.GetAsync("api/Pais/5?"+id);
-                HttpResponseMessage res = cl.GetAsync("api/TipoEquipo").Result;
+                HttpResponseMessage res = cl.GetAsync("api/Roles").Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<data.TipoEquipo>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<data.Roles>>(auxres);
                 }
             }
             return aux;
         }
-
-
 
     }
 }

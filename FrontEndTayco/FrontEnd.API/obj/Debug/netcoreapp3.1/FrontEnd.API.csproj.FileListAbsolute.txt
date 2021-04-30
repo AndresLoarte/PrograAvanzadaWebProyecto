@@ -135,6 +135,11 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.AP
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.TagHelpers.input.cache
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.TagHelpers.output.cache
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.RazorCoreGenerate.cache
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Create.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Delete.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Details.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Edit.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Index.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Equipo\Create.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Equipo\Delete.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Equipo\Details.cshtml.g.cs
@@ -156,6 +161,11 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.AP
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout - Copy.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Users\Delete.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.RazorTargetAssemblyInfo.cache
@@ -167,4 +177,3 @@ C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.AP
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.dll
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.pdb
 C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.genruntimeconfig.cache
-C:\Users\pc\Documents\GitHub\PrograAvanzadaWebProyecto\FrontEndTayco\FrontEnd.API\obj\Debug\netcoreapp3.1\FrontEnd.API.csprojAssemblyReference.cache
