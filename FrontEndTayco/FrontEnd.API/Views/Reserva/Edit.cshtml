@@ -13,6 +13,9 @@
             <!-- FORM VALIDATION -->
             <div class="row mt">
                 <div class="col-lg-12">
+                    <a class=" btn btn-xs" asp-controller="Reserva" asp-action="Index" role="button">
+                        <i class="fa fa-arrow-circle-left  fa-2x " aria-hidden="true"></i>
+                    </a>
                     <h4><i class="fa fa-user"></i> Editar Reserva</h4>
                     <div class="form-panel">
 
@@ -21,7 +24,7 @@
                             <input type="hidden" asp-for="ReservaId" />
                             <div class="form-group">
                                 <label asp-for="UserId" class="control-label"></label>
-                                <input asp-for="UserId" class="form-control"/>
+                                <input asp-for="UserId" class="form-control" />
                                 <span asp-validation-for="UserId" class="text-danger"></span>
                             </div>
                             <div class="form-group">
@@ -50,7 +53,7 @@
                                 </label>
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Save" class="btn btn-primary" />
+                                <input type="submit" value="Editar" class="btn btn-primary" />
                             </div>
                         </form>
 
@@ -58,7 +61,6 @@
                 </div>
             </div>
             <div>
-                <a asp-action="Index">Back to List</a>
             </div>
             <!-- /row -->
         </section>

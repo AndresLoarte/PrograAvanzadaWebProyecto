@@ -13,7 +13,11 @@
             <h3><i class="fa fa-angle-right"></i> Detalle del equipo</h3>
             <div class="row mt">
 
+
                 <div class="col-md-12">
+                    <a class=" btn btn-xs" asp-action="Index" role="button">
+                        <i class="fa fa-arrow-circle-left  fa-2x " aria-hidden="true"></i>
+                    </a>
                     <div class="content-panel">
                         <table class="table table-striped table-advance table-hover">
                             <h4><i class="fa fa-angle-right"></i>Detalles del equipo seleccionada</h4>
@@ -22,10 +26,10 @@
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.NombreEquipo)
-                                    <td>
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(model => model.NombreEquipo)
-                                    <td>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>

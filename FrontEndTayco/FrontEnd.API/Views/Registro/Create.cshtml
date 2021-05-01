@@ -1,7 +1,14 @@
 ﻿@model FrontEnd.API.Models.Users
 
+
+
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
+
+
 
 <head>
     <!-- Required meta tags-->
@@ -11,8 +18,12 @@
     <meta name="author" content="Colorlib">
     <meta name="keywords" content="Colorlib Templates">
 
+
+
     <!-- Title Page-->
     <title>Registro</title>
+
+
 
     <!-- Icons font CSS-->
     <link href="~/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -20,70 +31,87 @@
     <!-- Font special for pages-->
     <link href="~/https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+
+
     <!-- Vendor CSS-->
     <link href="~/vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="~/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+
 
     <!-- Main CSS-->
     <link href="~/css/main.css" rel="stylesheet" media="all">
 </head>
 
+
+
 <body>
     <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
         <div class="wrapper wrapper--w780">
-            <a class=" btn btn-success btn-xs" href="index_login.html" role="button">
-                <i class="fa fa-arrow-circle-left  fa-2x " aria-hidden="true"></i>
+            <a class=" btn btn-success btn-xs" asp-area="" asp-controller="Login" asp-action="Index" role="button">
+                <i class="fa fa-arrow-circle-left fa-2x " aria-hidden="true"></i>
             </a>
             <div class="card card-4">
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Ingresar datos </h2>
                     <form asp-action="Create">
-                        <div class="row">
+                        <div class="form-group">
                             <div class="input-group col-md-6">
-                                <input asp-for="Nombre" class="form-control" placeholder="Nombre" type="text" />
+                                <input asp-for="Nombre"  class="form-control" placeholder="Nombre" type="text" />
                             </div>
                             <div class="input-group col-md-6">
-                                <input asp-for="PrimerApellido" class="form-control" placeholder="Primer Apellido" type="text" />
+                                <input asp-for="PrimerApellido"  class="form-control" placeholder="Primer Apellido" type="text" />
                             </div>
                         </div>
 
-                        <div class="row">
+
+
+                        <div class="form-group">
                             <div class="input-group col-md-6">
                                 <input asp-for="SegundoApellido" class="form-control" placeholder="Segundo Apellido" type="text" />
                             </div>
                             <div class="input-group col-md-6">
-                                <input asp-for="Correo" class="form-control" placeholder="Email" type="email" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-group col-md-6">
-                                <input asp-for="Telefono" class="form-control" placeholder="Nombre usuario" type="number" />
-                            </div>
-                            <div class="input-group col-md-6">
-                                <input asp-for="UserName" class="form-control" placeholder="Contraseña" type="text" />
+                                <input asp-for="Correo" class="form-control" placeholder="Correo electrónico" type="email" />
                             </div>
                         </div>
 
-                        <div class="row">
+
+
+                        <div class="form-group">
                             <div class="input-group col-md-6">
-                                <input asp-for="Password" class="form-control" placeholder="Nombre usuario" type="password" />
+                                <input asp-for="Telefono"  class="form-control" placeholder="Telefono" type="number" />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input asp-for="UserName"  class="form-control" placeholder="Nombre Usuario" type="text" />
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <div class="input-group col-md-6">
+                                <input asp-for="Password" class="form-control" placeholder="Contraseña" type="password" />
                             </div>
                             <div class="input-group col-md-6" hidden="hidden">
                                 <input asp-for="RoleId" class="form-control" value="2" />
                             </div>
                         </div>
 
-                        <div class="row" hidden="hidden">
-                            <div class="input-group col-md-6">
+
+
+                        <div class="form-group" hidden="hidden">
+                            <div class="form-group col-md-6">
                                 <label class="form-check-label">
                                     <input class="form-check-input" asp-for="Estado" value="true" /> @Html.DisplayNameFor(model => model.Estado)
                                 </label>
                             </div>
                         </div>
 
+
+
                         <div class="p-t-10">
-                            <input type="submit" value="Create" class="btn btn-primary" />
+                            <input asp-controller="Login" asp-action="Index" type="submit" value="Create" class="login" />
                             @*<a class="login" href="index_login.html" role="button">Registrar <i class=""></i></a>*@
                         </div>
                     </form>
@@ -92,6 +120,8 @@
         </div>
     </div>
 
+
+
     <!-- Jquery JS-->
     <script src="~/vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
@@ -99,10 +129,16 @@
     <script src="~/vendor/datepicker/moment.min.js"></script>
     <script src="~/vendor/datepicker/daterangepicker.js"></script>
 
+
+
     <!-- Main JS-->
     <script src="~/js/global.js"></script>
 
+
+
 </body>
+
+
 
 </html>
 <!-- end document-->
