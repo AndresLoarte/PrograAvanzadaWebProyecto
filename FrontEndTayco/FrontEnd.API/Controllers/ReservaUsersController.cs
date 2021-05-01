@@ -14,15 +14,10 @@ namespace FrontEnd.API.Controllers
     public class ReservaUsersController : Controller
     {
         string baseurl = "http://localhost:30091/";
-        public async Task<IActionResult> IndexUser()
+        public async Task<IActionResult> Index()
         {
             List<data.Reserva> aux = new List<data.Reserva>();
             using (var cl = new HttpClient())
-
-                //var usuario = from x in _context.Users
-                //              where x.UserId == 1
-                //              select new { x.UserId, x.UserName };
-
             {
                 cl.BaseAddress = new Uri(baseurl);
                 cl.DefaultRequestHeaders.Clear();
@@ -38,7 +33,7 @@ namespace FrontEnd.API.Controllers
             return View(aux);
         }
         // GET: Reserva/Details/5
-        public async Task<IActionResult> DetailsUser(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -56,7 +51,7 @@ namespace FrontEnd.API.Controllers
         }
 
         // GET: Reserva/Create
-        public IActionResult CreateUser()
+        public IActionResult Create()
         {
             ViewData["UserId"] = new SelectList(GetAllUsers(), "UserId", "Correo");
             ViewData["TipoCanchaId"] = new SelectList(GetAllTipoCancha(), "TipoCanchaId", "NombreCancha");
@@ -69,7 +64,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateUser([Bind("ReservaId,UserId,TipoCanchaId,EquipoId,FechaReserva,Hora,Estado")] Models.Reserva reserva)
+        public async Task<IActionResult> Create([Bind("ReservaId,UserId,TipoCanchaId,EquipoId,FechaReserva,Hora,Estado")] Models.Reserva reserva)
         {
             if (ModelState.IsValid)
             {
@@ -93,7 +88,7 @@ namespace FrontEnd.API.Controllers
         }
 
         //GET: Reserva/Edit/5
-        public async Task<IActionResult> EditUser(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -113,7 +108,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditUser(int id, [Bind("ReservaId,UserId,TipoCanchaId,EquipoId,FechaReserva,Hora,Estado")] Models.Reserva reserva)
+        public async Task<IActionResult> Edit(int id, [Bind("ReservaId,UserId,TipoCanchaId,EquipoId,FechaReserva,Hora,Estado")] Models.Reserva reserva)
         {
             if (id != reserva.ReservaId)
             {
@@ -158,7 +153,7 @@ namespace FrontEnd.API.Controllers
         }
 
         // GET: Reserva/Delete/5
-        public async Task<IActionResult> DeleteUser(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
@@ -218,9 +213,9 @@ namespace FrontEnd.API.Controllers
             }
             return aux;
         }
-        private List<data.User> GetAllUsers()
+        private List<data.Users> GetAllUsers()
         {
-            List<data.User> aux = new List<data.User>();
+            List<data.Users> aux = new List<data.Users>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
@@ -232,7 +227,7 @@ namespace FrontEnd.API.Controllers
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<data.User>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<data.Users>>(auxres);
                 }
             }
             return aux;
@@ -277,13 +272,6 @@ namespace FrontEnd.API.Controllers
             }
             return aux;
         }
-
-        //private readonly data.TaycoContext _context;
-
-        //public ReservaUsersController(data.TaycoContext context) {
-
-        //    _context = context;
-        //}
 
     }
 }

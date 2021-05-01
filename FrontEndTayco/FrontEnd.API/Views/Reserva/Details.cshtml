@@ -23,67 +23,61 @@
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.FechaReserva)
-                                    <td>
-                                </tr>
-                                <tr>
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(model => model.FechaReserva)
-                                    <td>
+                                    </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Hora)
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         @Html.DisplayFor(model => model.Hora)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Estado)
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         @Html.DisplayFor(model => model.Estado)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Equipo.NombreEquipo)
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         @Html.DisplayFor(model => model.Equipo.NombreEquipo)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.TipoCancha.Descripcion)
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         @Html.DisplayFor(model => model.TipoCancha.Descripcion)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.User)
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         @Html.DisplayFor(model => model.User.Correo)
                                     </td>
                                 </tr>
+
                                 <tr class="last-row">
                                     <td></td>
                                     <td>
-                                        <a class=" btn btn-success btn-xs" asp-action="Edit" asp-route-id="@Model.ReservaId"><i class="fa fa-pencil"></i></a>
+                                        <a class=" btn btn-success btn-xs" asp-action="Edit" asp-route-id="@Model.ReservaId">Editar<i class="fa fa-pencil"></i></a>
                                     </td>
                                 </tr>
                             </tbody>

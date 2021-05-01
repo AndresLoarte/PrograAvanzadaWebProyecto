@@ -1,4 +1,4 @@
-﻿@model FrontEnd.API.Models.User
+﻿@model FrontEnd.API.Models.Users
 
 @{
     Layout = "_LayoutUsers";
@@ -17,22 +17,23 @@
                     <div class="content-panel">
                         <input type="hidden" asp-for="UserId" value="1" /> 
                         <table class="table table-striped table-advance table-hover">
-
-
                             <tbody>
 
                                 <tr>
                                     <td>Nombre</td>
                                     <td>@Html.DisplayFor(model => model.Nombre)</td>
                                 </tr>
+
                                 <tr>
                                     <td>Primer Apellido</td>
                                     <td>@Html.DisplayFor(model => model.PrimerApellido)</td>
                                 </tr>
+
                                 <tr>
                                     <td>Segundo Apellido</td>
                                     <td>@Html.DisplayFor(model => model.SegundoApellido)</td>
                                 </tr>
+
                                 <tr>
                                     <td>Nombre usuario</td>
                                     <td>@Html.DisplayFor(model => model.UserName)</td>
@@ -42,10 +43,12 @@
                                     <td>Teléfono</td>
                                     <td>@Html.DisplayFor(model => model.Telefono)</td>
                                 </tr>
+
                                 <tr>
                                     <td>Correo</td>
                                     <td>@Html.DisplayFor(model => model.Correo)</td>
                                 </tr>
+
                                 <tr class="last-row">
                                     <td></td>
                                     <td>

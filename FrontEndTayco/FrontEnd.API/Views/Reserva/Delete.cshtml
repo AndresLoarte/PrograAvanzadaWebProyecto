@@ -4,10 +4,7 @@
     ViewData["Title"] = "Delete";
 }
 
-
 <section id="container">
-
-
     <!--main content start-->
     <section id="main-content">
         <section class="wrapper">
@@ -27,11 +24,12 @@
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.FechaReserva)
-                                    <td>
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(model => model.FechaReserva)
-                                    <td>
+                                    </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Hora)
@@ -40,6 +38,7 @@
                                         @Html.DisplayFor(model => model.Hora)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Estado)
@@ -48,6 +47,7 @@
                                         @Html.DisplayFor(model => model.Estado)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.Equipo.NombreEquipo)
@@ -56,6 +56,7 @@
                                         @Html.DisplayFor(model => model.Equipo.NombreEquipo)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.TipoCancha.NombreCancha)
@@ -64,6 +65,7 @@
                                         @Html.DisplayFor(model => model.TipoCancha.NombreCancha)
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         @Html.DisplayNameFor(model => model.User)
@@ -72,6 +74,7 @@
                                         @Html.DisplayFor(model => model.User.UserName)
                                     </td>
                                 </tr>
+
                                 <tr class="last-row">
                                     <td></td>
                                     <td>
@@ -110,5 +113,4 @@
             "progressBar": true, "positionClass": "toast-bottom-right"
         });
     })
-
 </script>

@@ -17,7 +17,7 @@ namespace FrontEnd.API.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<data.User> aux = new List<data.User>();
+            List<data.Users> aux = new List<data.Users>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
@@ -28,7 +28,7 @@ namespace FrontEnd.API.Controllers
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<data.User>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<data.Users>>(auxres);
                 }
             }
             return View(aux);
@@ -76,7 +76,7 @@ namespace FrontEnd.API.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] data.User users)
+        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserName,Nombre,PrimerApellido,SegundoApellido,Correo,Telefono,Password,Estado,RoleId")] data.Users users)
         {
             id = 1;
             if (id != users.UserId)
@@ -127,9 +127,9 @@ namespace FrontEnd.API.Controllers
             return (GetById(id) != null);
         }
 
-        private data.User GetById(int? id)
+        private data.Users GetById(int? id)
         {
-            data.User aux = new data.User();
+            data.Users aux = new data.Users();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(baseurl);
@@ -141,7 +141,7 @@ namespace FrontEnd.API.Controllers
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<data.User>(auxres);
+                    aux = JsonConvert.DeserializeObject<data.Users>(auxres);
                 }
             }
             return aux;
